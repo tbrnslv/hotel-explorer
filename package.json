@@ -2,10 +2,23 @@
   "name": "sobot-hotel-explorer",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://sobot.software",
   "dependencies": {
+    "@material-ui/core": "^4.6.1",
+    "@material-ui/icons": "^4.5.1",
+    "@material-ui/lab": "^4.0.0-alpha.32",
+    "normalizr": "^3.4.1",
+    "query-string": "^6.9.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.2.0"
+    "react-redux": "^7.1.3",
+    "react-responsive-carousel": "^3.1.51",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0",
+    "styled-components": "^4.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "redux-devtools": "^3.5.0"
   }
 }
