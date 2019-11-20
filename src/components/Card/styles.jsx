@@ -119,7 +119,9 @@ export const CardActions = styled(MuiCardActions)`
   justify-content: space-between;
 `;
 export const Collapse = styled(MuiCollapse)``;
-export const LinearProgress = styled(MuiLinearProgress)``;
+export const LinearProgress = styled(MuiLinearProgress)`
+  margin-bottom: ${props => props.theme.spacing(2)}px;
+`;
 export const CircularProgress = styled(MuiCircularProgress)``;
 
 export const CommentsErrorWrapper = styled.div`
