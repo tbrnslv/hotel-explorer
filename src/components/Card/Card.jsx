@@ -76,7 +76,7 @@ const HotelCard = ({
 
   const renderComments = () => {
     if (comments && comments.comments) {
-      if (comments) {
+      if (comments.loading) {
         return <LinearProgress />;
       } else if (comments.error) {
         return (
