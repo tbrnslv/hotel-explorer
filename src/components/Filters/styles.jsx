@@ -20,12 +20,18 @@ export const FormControl = styled(MuiFormControl)`
   margin: ${props => props.theme.spacing(1)}px
     ${props => props.theme.spacing(2)}px;
   width: 150px;
+  @media (max-width: ${props => props.theme.breakpoints.values["sm"]}px) {
+    width: 100%;
+  }
 `;
 
 export const TextField = styled(MuiTextField)`
   margin: ${props => props.theme.spacing(1)}px
     ${props => props.theme.spacing(2)}px;
   width: 150px;
+  @media (max-width: ${props => props.theme.breakpoints.values["sm"]}px) {
+    width: 100%;
+  }
 `;
 
 export const Wrapper = styled.div`
